@@ -1,7 +1,7 @@
 {
-  "name": "vue-awesome-swiper",
+  "name": "@nuts/vue-awesome-swiper",
   "description": "Swiper component for Vue",
-  "version": "4.1.1",
+  "version": "4.1.2-alpha.5",
   "keywords": [
     "vue swiper",
     "vue awesome swiper",
@@ -13,9 +13,9 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-awesome-swiper"
+    "url": "https://github.com/nuts/vue-awesome-swiper"
   },
-  "bugs": "https://github.com/surmon-china/vue-awesome-swiper/issues",
+  "bugs": "https://github.com/nuts/vue-awesome-swiper/issues",
   "homepage": "https://github.surmon.me/vue-awesome-swiper",
   "author": {
     "name": "Surmon",
@@ -46,14 +46,14 @@
     "release": ". ./scripts/release.sh"
   },
   "peerDependencies": {
-    "swiper": "^5.2.0",
+    "@nuts/swiper": "^5.4.6-alpha.4",
     "vue": "2.x"
   },
   "devDependencies": {
+    "@nuts/swiper": "^5.4.6-alpha.4",
     "@surmon-china/abc-factory": "^0.3.3",
-    "@types/swiper": "^5.2.1",
-    "cross-env": "^6.0.3",
-    "swiper": "^5.2.0",
+    "@types/swiper": "^5.4.0",
+    "cross-env": "^7.0.2",
     "typescript": "^3.7.5",
     "vue": "^2.6.10"
   },
